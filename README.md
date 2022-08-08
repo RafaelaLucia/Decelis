@@ -27,6 +27,8 @@ Deve-se dar git clone na pasta do projeto
 
 ### Database
 Recomendável criar o database no programa MS SQL Server 2019
+Banco hospedado no Microsoft Azure
+
 ### Backend
 Pode-se rodar a API no programa Visual Studio 2022 com dotnet 6.0
 **porém é recomendável utilizar a API que está hospedada no heroku https://decelis.herokuapp.com/index.html**
