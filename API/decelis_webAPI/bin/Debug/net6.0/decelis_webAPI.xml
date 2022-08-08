@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>decelis_webAPI</name>
+    </assembly>
+    <members>
+        <member name="M:decelis_webAPI.Controllers.CadastroUsuarioController.PostUser(decelis_webAPI.Domains.UserInfo,Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Posts a new user
+            </summary>
+        </member>
+        <member name="M:decelis_webAPI.Controllers.CadastroUsuarioController.PostUser(decelis_webAPI.Domains.UserInfo,Microsoft.AspNetCore.Http.IFormFile,System.Guid)">
+            <summary>
+            Updates the infos about a user
+            </summary>
+        </member>
+        <member name="M:decelis_webAPI.Controllers.ClassesController.GetAll">
+            <summary>
+            List all classes
+            </summary>
+        </member>
+        <member name="M:decelis_webAPI.Controllers.ClassesController.SearchId(System.Int32)">
+            <summary>
+            Search for a class by its id
+            </summary>
+        </member>
+        <member name="M:decelis_webAPI.Controllers.ClassesController.Post(decelis_webAPI.Domains.Class)">
+            <summary>
+            Posts a new class
+            </summary>
+        </member>
+        <member name="M:decelis_webAPI.Controllers.ClassesController.Put(System.Int32,decelis_webAPI.Domains.Class)">
+            <summary>
+            Updates the infos about a class
+            </summary>
+        </member>
+        <member name="M:decelis_webAPI.Controllers.ClassesController.Delete(System.Int32)">
+            <summary>
+            Deletes a class
+            </summary>
+        </member>
+        <member name="M:decelis_webAPI.Controllers.SkillLevelsController.GetAll">
+            <summary>
+            List all levels
+            </summary>
+        </member>
+        <member name="M:decelis_webAPI.Controllers.SkillLevelsController.SearchId(System.Int32)">
+            <summary>
+            Search for a level by its id
+            </summary>
+        </member>
+        <member name="M:decelis_webAPI.Controllers.SkillLevelsController.Post(decelis_webAPI.Domains.SkillLevel)">
+            <summary>
+            Posts a new level
+            </summary>
+        </member>
+        <member name="M:decelis_webAPI.Controllers.SkillLevelsController.Put(System.Int32,decelis_webAPI.Domains.SkillLevel)">
+            <summary>
+            Updates the infos about a level
+            </summary>
+        </member>
+        <member name="M:decelis_webAPI.Controllers.SkillLevelsController.Delete(System.Int32)">
+            <summary>
+            Deletes a level
+            </summary>
+        </member>
+        <member name="M:decelis_webAPI.Controllers.StatusTypesController.GetAll">
+            <summary>
+            List all status
+            </summary>
+        </member>
+        <member name="M:decelis_webAPI.Controllers.StatusTypesController.SearchId(System.Int32)">
+            <summary>
+            Search for a status by its id
+            </summary>
+        </member>
+        <member name="M:decelis_webAPI.Controllers.StatusTypesController.Post(decelis_webAPI.Domains.StatusType)">
+            <summary>
+            Posts a new status
+            </summary>
+        </member>
+        <member name="M:decelis_webAPI.Controllers.StatusTypesController.Delete(System.Int32)">
+            <summary>
+            Deletes a status
+            </summary>
+        </member>
+        <member name="M:decelis_webAPI.Controllers.TimeClassesController.GetAll">
+            <summary>
+            List all periods
+            </summary>
+        </member>
+        <member name="M:decelis_webAPI.Controllers.TimeClassesController.SearchId(System.Int32)">
+            <summary>
+            Search for a period by its id
+            </summary>
+        </member>
+        <member name="M:decelis_webAPI.Controllers.TimeClassesController.Post(decelis_webAPI.Domains.TimeClass)">
+            <summary>
+            Posts a new period
+            </summary>
+        </member>
+        <member name="M:decelis_webAPI.Controllers.TimeClassesController.Put(System.Int32,decelis_webAPI.Domains.TimeClass)">
+            <summary>
+            Updates the infos about a period
+            </summary>
+        </member>
+        <member name="M:decelis_webAPI.Controllers.TimeClassesController.Delete(System.Int32)">
+            <summary>
+            Deletes a period
+            </summary>
+        </member>
+        <member name="M:decelis_webAPI.Controllers.UserInfosController.GetAll">
+            <summary>
+            List all users
+            </summary>
+        </member>
+        <member name="M:decelis_webAPI.Controllers.UserInfosController.SearchId(System.Guid)">
+            <summary>
+            Search for a user by its id
+            </summary>
+        </member>
+        <member name="M:decelis_webAPI.Controllers.UserInfosController.Delete(System.Guid)">
+            <summary>
+            Deletes a user
+            </summary>
+        </member>
+        <member name="M:decelis_webAPI.Controllers.UserTypesController.GetAll">
+            <summary>
+            List all user types
+            </summary>
+        </member>
+        <member name="M:decelis_webAPI.Controllers.UserTypesController.SearchId(System.Int32)">
+            <summary>
+            Search for a user type by its id
+            </summary>
+        </member>
+        <member name="M:decelis_webAPI.Controllers.UserTypesController.Post(decelis_webAPI.Domains.UserType)">
+            <summary>
+            Posts a new user type
+            </summary>
+        </member>
+        <member name="M:decelis_webAPI.Controllers.UserTypesController.Put(System.Int32,decelis_webAPI.Domains.UserType)">
+            <summary>
+            Updates the infos about a user type
+            </summary>
+        </member>
+        <member name="M:decelis_webAPI.Controllers.UserTypesController.Delete(System.Int32)">
+            <summary>
+            Deletes a user type
+            </summary>
+        </member>
+    </members>
+</doc>

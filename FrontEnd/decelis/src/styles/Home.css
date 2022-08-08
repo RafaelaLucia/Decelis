@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Baskervville&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+.img-carousel {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  margin-bottom: 100px;
+}
+
+.overlap-fixed {
+  height: 300px;
+  width: auto;
+  background: #262626;
+  opacity: 80%;
+  z-index: 10;
+  position: absolute;
+  margin-top: 50px;
+  text-align: center;
+  color: white;
+}
+
+.overlap-title {
+  margin-top: 70px;
+  font-size: 25px;
+  font-family: "Baskervville", serif;
+}
+
+.overlap-text {
+  padding: 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: "Comfortaa", cursive;
+  margin-bottom: 70px;
+}
+
+.principal-image {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  object-position: top;
+}
+
+.brown-square {
+  background-color: #736346;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  object-position: top;
+}
+
+.brown-square h2 {
+  text-align: justify;
+  font-family: "Comfortaa", cursive;
+  font-size: 100%;
+  color: white;
+}
+
+.about-us {
+  display: flex;
+}
+
+.spacing {
+  margin-top: 200px;
+}
+
+@media (max-width: 1070px) {
+    .brown-square h2 {
+        padding: 10px;
+      }
+  }
+
+@media (max-width: 420px) {
+  .overlap-title {
+    font-size: 20px;
+  }
+  .overlap-text {
+    padding: 0px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 185px) {
+  .overlap-fixed {
+    display: none;
+  }
+}
