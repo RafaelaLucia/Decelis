@@ -19,9 +19,6 @@ Nela, temos 3 usuários: Geral, Admin, Root (O que pode ser traduzido para Aluno
 - [x] Heroku
 - [x] Microsoft Azure
 
-### Vídeo Demonstrativo
-https://youtu.be/PcN-PXTfZys
-
 # Como rodar?
 Deve-se dar git clone na pasta do projeto
 
